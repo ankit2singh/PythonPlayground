@@ -12,6 +12,5 @@ class Solution:
             revint=revint*10 + x%10
             x //=10
         return revint
-
 ob = Solution()
 print(ob.reverse(123))        

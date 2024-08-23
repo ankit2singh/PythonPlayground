@@ -10,7 +10,7 @@ def fact(n):
 print(fact(6))    
 
 
-
+ 
 # # recursion
 # def factorial_rec(n):
 #     if n==0:

@@ -12,7 +12,6 @@
 # print(fact(6))    
 
 
- 
 # recursion
 def factorial_rec(n):
     if n==0:
@@ -20,4 +19,4 @@ def factorial_rec(n):
     return n*factorial_rec(n-1)
     
 
-print(factorial_rec(5))    
+print(factorial_rec(6))    

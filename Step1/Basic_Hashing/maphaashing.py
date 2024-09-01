@@ -1,4 +1,4 @@
-# hash table using map/dictionary
+# hash table using map/dictionary , we generally preferred unordered map due to worst time complexity.
 arr = [3,3,4,2,1,6,6]
 mpp = {}
 

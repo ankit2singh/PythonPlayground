@@ -1,6 +1,8 @@
-## This is my repo for python codes
-This repository is a private repository
-T
+# This is my repo for python codes
+
+## I use this to take notes
 
 
-this is v02 of test branchgit 
+**MAP**
+sorted map take < logN > for all the cases
+-in ordered map we can use anything but inordered pair(iunt,int) and int can't be used

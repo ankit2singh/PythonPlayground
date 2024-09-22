@@ -1,16 +1,9 @@
-def bubblesorts(arr):
-      #arr = [11,34,3,2,6,4]      
-      for i in range(len(arr)):
-        #  min=i
-        #  j=i+1
-        #  for j in range(len(arr)):
-           if arr[i] < arr[i+1]:
-              arr[i] ,arr[i+1] = arr[i+1],arr[i]
-        #    j +=1
-        #    arr[min],arr[i]=arr[i],arr[min]  
+def bubblesoryt(a: list):
+    n = len(a)
+    for i in range(n-1):
+        for j in range(n-1-i):
+            if a[j] > a[j+1]:
+                a[j], a[j+1] = a[j+1], a[j]
+    return a
 
-      i += 1     
-      return arr
-
-print(selctionsorts(([11,34,3,2,6,4])))
-    
+print(bubblesoryt([7, 8, 1, 2]))

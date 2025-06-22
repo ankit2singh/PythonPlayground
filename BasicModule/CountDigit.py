@@ -10,6 +10,6 @@ def cnt_while(x):
         cnt +=1
         x = x//10
 print(cnt(777))
-print(cnt(7770))
+print(cnt(7770))  
 
 

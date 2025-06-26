@@ -1,3 +1,6 @@
+# TC -> O(n/2) ~=n, fro FON2 -> its O(root(n))
+# SC -> O(K) , K is no. of factors
+
 def FON(n):
 
     res = []

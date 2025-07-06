@@ -1,3 +1,5 @@
+# functional recusrsion, most Imprtant
+
 def sumn(N):
     if N == 1:
         return 1

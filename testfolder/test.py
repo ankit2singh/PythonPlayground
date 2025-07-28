@@ -2,7 +2,7 @@
 # print(len(x))
 # print(5**2)
 
-
+    
 # n = [1,1,3,3,3,3,3,3,3,7,0,0]   # hash map theory
 # cnt=0
 # key = 3

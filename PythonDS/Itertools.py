@@ -9,7 +9,7 @@ print(list(product(a,b)))
 
 # PERMUTATION(all) AND COMBINATION(distinct)
 
-x = [2,3,1,4]
+x = [2,3,1,4]  
 
 print("Combinatioon result: ", list(combinations(x,3)),"\nPermutaion Result: ", list(permutations(x, 2)))
 # Combinatioon result:  [(2, 3, 1), (2, 3, 4), (2, 1, 4), (3, 1, 4)] 

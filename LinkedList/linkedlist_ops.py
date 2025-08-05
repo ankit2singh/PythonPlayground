@@ -34,7 +34,20 @@ class SinglyLinkedList:
                 curr = curr.next    
             # print()
     
-    def insert()
+    def insert(self, val, position):
+        new_node = Node(val)
+        if position == 0:
+            new_node.next = self.head
+            self.head = new_node
+
+        else:
+            count = 0 
+            temp = self.head
+
+            while count < position :
+
+                temp
+            
 
 sll = SinglyLinkedList()
 

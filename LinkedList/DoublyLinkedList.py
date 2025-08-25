@@ -29,4 +29,22 @@ class Node:
              curr = curr.next
           curr.next = new_node
           new_node.prev = curr
+
+
+     def inser_at_position(val, position):
+           new_node = Node(val)
+           if position == 0:
+              return insert_at_head(val)
+           curr = self.head
+           count = 0 
+           while curr.next and count < position - 1:
+              curr = curr.next
+              count += 1
+           new_node.next = curr.next
+           new_node.prev = curr
+
+           if curr.next:
+              curr.next.prev = new_node
+           curr.next = new_node   
+           
           

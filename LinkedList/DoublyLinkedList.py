@@ -18,4 +18,15 @@ class Node:
          head.prev = new_node
          head = new_node
        
-    
+    def append(self, val):
+       new_node = Node(val)
+       
+       if not self.head:
+          head = new_node
+       else:
+          curr = self.head
+          while curr.next:
+             curr = curr.next
+          curr.next = new_node
+          new_node.prev = curr
+          

@@ -16,5 +16,5 @@ def getSecondOrderElements(a):
             s_largest = a[i]
         
     return [s_largest]    
-
+   
 print(getSecondOrderElements([3,4,5,6,6]))

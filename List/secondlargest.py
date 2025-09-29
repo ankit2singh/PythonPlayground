@@ -14,7 +14,7 @@ def getSecondOrderElements(a):
         
         if a[i] > s_largest and a[i] != largest:
             s_largest = a[i]
-        
+                 
     return [s_largest]    
    
 print(getSecondOrderElements([3,4,5,6,6]))
